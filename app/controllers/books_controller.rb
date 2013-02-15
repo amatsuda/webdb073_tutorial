@@ -4,7 +4,11 @@ class BooksController < ApplicationController
   # GET /books
   # GET /books.json
   def index
+    @search_form = SearchForm.new params[:search_form]
     @books = Book.all
+    if @search_form.q.present?
+      @books = @books.titled @search_form.q
+    end
   end
 
   # GET /books/1
