@@ -18,8 +18,7 @@
   </thead>
 
   <tbody>
-    <% @books.each do |book| %>
-    <tr>
+    <%= content_tag_for :tr, @books do |book| %>
       <td><%= book.title %></td>
       <td><%= book.price %></td>
       <td><%= book.published_on %></td>
