@@ -1,28 +1,9 @@
-== README
+== 『詳解Rails 4』チュートリアル
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+WEB+DB PRESS Vol. 73 特集2『詳解Rails 4』第6章のサンプルアプリです。
 
-Things you may want to cover:
+* 対応Rubyバージョン
+1.9.3以上
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* 対応Railsバージョン
+4.0 (ただし、本チュートリアル作成時点では4.0.0.beta1にて動作を確認)
